@@ -1,0 +1,6 @@
+<div [formGroup]="todoListForm">
+  <input class="list-input" formControlName="name">
+  <input class="list-input" formControlName="description">
+  <input type="checkbox" formControlName="status">
+  <div class="add-btn" (click)="onEditSave()">Save</div>
+</div>
